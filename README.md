@@ -1,29 +1,19 @@
-# FPS_game_V0 — Dead Sector / 隔离禁区
+# FPS_game_V0 — V0.0.1 — double-click HTML / 双击 HTML 运行
 
-## Download V0.0.1 / 下载 V0.0.1
+**[Download V0.0.1.zip](https://github.com/Henrysoilscience/FPS_game_V0/raw/refs/heads/main/releases/V0.0.1.zip)** · [Standalone HTML](https://github.com/Henrysoilscience/FPS_game_V0/raw/refs/heads/main/releases/DeadSector-V0.0.1.html) · [SHA-256 checksums](releases/SHA256SUMS.txt)
 
-**[⬇ Download the playable V0.0.1.zip / 下载游戏压缩包](https://github.com/Henrysoilscience/FPS_game_V0/raw/refs/heads/main/releases/V0.0.1.zip)**
+1. Download and fully extract the ZIP.
+2. Double-click **`DeadSector.html`** inside the extracted `DeadSector` folder. Choose **Open with → Google Chrome** if Chrome is not your default browser.
+3. Click **ENTER THE SECTOR** to enable mouse capture and sound.
 
-[View the package file](releases/V0.0.1.zip) · [SHA-256 checksum](releases/SHA256SUMS.txt)
+The game runs directly from the saved HTML file, including offline. Players need only a current desktop Chrome browser with WebGL2, a keyboard, and a mouse. No Python, Node.js, npm, server, or browser security flags are required. To download just the HTML, use **Save link as** and keep the `.html` extension.
 
-A single-player FPS for desktop Chrome: English and Chinese menus, three switchable weapons, slow-moving zombies, footsteps, gunshots, survival waves, and adjustable graphics.
+Includes English/Simplified Chinese menus, three switchable weapons, slow-moving zombies, smooth 3D characters, footsteps, gunshots, survival waves, and graphics settings. Preferences are saved where local-file browser storage is available; gameplay works without it.
 
-### Play
+WASD move · Mouse look · Left click fire · Right click aim · 1/2/3 weapons · R reload · Shift sprint · Ctrl/C crouch · Space jump · Esc pause.
 
-1. Download and fully extract `V0.0.1.zip`.
-2. Install Python 3 if needed, then run `python3 serve.py` from the extracted `DeadSector` folder. On Windows, run `py -3 serve.py`.
-3. Open the printed address in Chrome and click **ENTER THE SECTOR**.
+**中文：下载 ZIP 并完整解压后，双击 `DeadSector.html` 即可运行。** 如果默认浏览器不是 Chrome，请右键选择“打开方式 → Google Chrome”。点击“进入禁区”启用鼠标和音效。右上角可切换中文，“作战设置”可调整画质、音量和灵敏度。可直接离线游玩，无需安装 Python、Node.js 或 npm，无需服务器或浏览器安全参数。
 
-Do not open `index.html` directly. The game requires an HTTP server and WebGL2. You can also host the extracted files on any static HTTP/HTTPS website.
+The ZIP also includes bilingual instructions, licenses, and a validation report. This is a repository-hosted download rather than a GitHub Releases attachment.
 
-WASD move · Mouse look · Left click fire · Right click aim · 1/2/3 switch weapons · R reload · Shift sprint · Ctrl/C crouch · Space jump · Esc pause.
-
-### 中文说明
-
-1. 下载并完整解压 `V0.0.1.zip`。
-2. 安装 Python 3 后，在解压得到的 `DeadSector` 文件夹中运行 `python3 serve.py`；Windows 可运行 `py -3 serve.py`。
-3. 在桌面版 Chrome 中打开终端显示的地址，点击“进入禁区”。右上角可切换中文。
-
-请勿直接双击 HTML 文件。WASD 移动，鼠标转动视角，左键开火，右键瞄准，1/2/3 切换武器，R 换弹，Shift 冲刺，Ctrl/C 蹲下，空格跳跃，Esc 暂停。普通电脑建议先选择低画质。
-
-The ZIP includes bilingual instructions, a local launcher, licenses, and the validation report. The package is stored directly in this repository; it is not a GitHub Releases attachment.
+The validation report inside the ZIP records 13 simulation tests, four browser tests, and two offline embedded-content checks. Direct file-opening tests could not run in the cloud browser because its administrator policy blocks file:// navigation.
