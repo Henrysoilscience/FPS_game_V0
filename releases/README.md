@@ -1,6 +1,6 @@
-# V0.0.1 — double-click HTML / 双击 HTML 运行
+# 0.0.2 — double-click HTML / 双击 HTML 运行
 
-**[Download V0.0.1.zip](https://github.com/Henrysoilscience/FPS_game_V0/raw/refs/heads/main/releases/V0.0.1.zip)** · [Standalone HTML](https://github.com/Henrysoilscience/FPS_game_V0/raw/refs/heads/main/releases/DeadSector-V0.0.1.html) · [SHA-256 checksums](SHA256SUMS.txt)
+**[Download 0.0.2.zip](https://github.com/Henrysoilscience/FPS_game_V0/raw/refs/heads/main/releases/0.0.2.zip)** · [Standalone HTML](https://github.com/Henrysoilscience/FPS_game_V0/raw/refs/heads/main/releases/DeadSector-0.0.2.html) · [SHA-256 checksums](SHA256SUMS.txt)
 
 1. Download and fully extract the ZIP.
 2. Double-click **`DeadSector.html`** inside the extracted `DeadSector` folder. Choose **Open with → Google Chrome** if Chrome is not your default browser.
