@@ -1,6 +1,8 @@
-# 0.0.2 — double-click HTML / 双击 HTML 运行
+# 0.0.3 — double-click HTML / 双击 HTML 运行
 
-**[Download 0.0.2.zip](https://github.com/Henrysoilscience/FPS_game_V0/raw/refs/heads/main/releases/0.0.2.zip)** · [Standalone HTML](https://github.com/Henrysoilscience/FPS_game_V0/raw/refs/heads/main/releases/DeadSector-0.0.2.html) · [SHA-256 checksums](SHA256SUMS.txt)
+**[Download 0.0.3.zip](https://github.com/Henrysoilscience/FPS_game_V0/raw/refs/heads/main/releases/0.0.3.zip)** · [Standalone HTML](https://github.com/Henrysoilscience/FPS_game_V0/raw/refs/heads/main/releases/DeadSector-0.0.3.html) · [SHA-256 checksums](SHA256SUMS.txt)
+
+Zombie heads and hats are rendered black across all variants.
 
 1. Download and fully extract the ZIP.
 2. Double-click **`DeadSector.html`** inside the extracted `DeadSector` folder. Choose **Open with → Google Chrome** if Chrome is not your default browser.
